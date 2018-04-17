@@ -24,7 +24,7 @@ function draw() {
   background(0);
   var co2 = 1;
 
-  console.log(incomingData);
+  console.log('inc data: ' + incomingData);
 
   if (co2 > 2.5) {
     background(255, 0, 0);
@@ -43,6 +43,6 @@ function draw() {
 
 function socketEvents(data){
   incomingData = data;
-  incomingData = map(incomingData, 0, 100, 0, 255);
-  console.log(data);
+  //incomingData = map(incomingData, 0, 100, 0, 255);
+  console.log('data' + data);
 }

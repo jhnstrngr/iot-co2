@@ -1,4 +1,4 @@
-var mqtt = require('mqtt')
+var mqtt = require('mqtt');
 var MQTT_TOPIC = "datacloudNR";
 var MQTT_ADDR = "mqtt://broker.i-dat.org:80";
 var MQTT_PORT = 80;
