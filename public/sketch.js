@@ -22,7 +22,8 @@ function setup() {
 
 function draw() {
   background(0);
-  var co2 = 1;
+
+  var co2 = incomingData;
 
   console.log('inc data: ' + incomingData);
 
